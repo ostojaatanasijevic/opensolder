@@ -649,7 +649,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -658,14 +658,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x03"
+			(property "Value" "Screw_Terminal_01x02"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -691,7 +691,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -700,7 +700,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "ki_keywords" "screw terminal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -709,7 +709,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "TerminalBlock*:*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -718,9 +718,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
+			(symbol "Screw_Terminal_01x02_1_1"
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 1.27)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -730,9 +730,10 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -741,9 +742,10 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -752,9 +754,44 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -764,7 +801,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -782,7 +819,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -792,24 +829,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2737,12 +2756,6 @@
 		(uuid "07286181-bbc2-40b7-9eec-49e099903033")
 	)
 	(junction
-		(at 269.24 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12682d28-340f-4000-ad96-0bbe4f17618d")
-	)
-	(junction
 		(at 205.74 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2761,12 +2774,6 @@
 		(uuid "33d583be-6079-4a8e-a5c0-b771e1ba681c")
 	)
 	(junction
-		(at 236.22 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "492759f8-8942-42c7-a06c-b74f197fbb09")
-	)
-	(junction
 		(at 38.1 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2777,12 +2784,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fc845dc-ad73-4b19-92b7-6337e7d65ba1")
-	)
-	(junction
-		(at 269.24 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75117a1d-3cba-48e7-86c7-93350717dafc")
 	)
 	(junction
 		(at 83.82 139.7)
@@ -2815,12 +2816,6 @@
 		(uuid "ba98b127-c8bc-4a14-b004-840f342011ae")
 	)
 	(junction
-		(at 251.46 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bff3effe-b3c2-4e04-97d7-0cab429d91d3")
-	)
-	(junction
 		(at 83.82 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2831,12 +2826,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4a7b1b7-5bc8-4d53-911a-af3d5e768acb")
-	)
-	(junction
-		(at 243.84 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8343ef2-1dc0-4640-a5c9-bd4e7b8f18d0")
 	)
 	(junction
 		(at 66.04 78.74)
@@ -2862,12 +2851,6 @@
 		(color 0 0 0 0)
 		(uuid "e08b2e54-8aae-4109-9120-2adffe6e0848")
 	)
-	(junction
-		(at 236.22 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6b8b32a-f7d1-4260-bb56-f1cf89f627cf")
-	)
 	(no_connect
 		(at 218.44 78.74)
 		(uuid "6d068b69-b22a-4291-aa08-c43b85e5158f")
@@ -2882,6 +2865,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 33.02) (xy 36.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "093f2074-e07d-4d77-8aae-19fc62aaf51a")
+	)
+	(wire
+		(pts
 			(xy 191.77 88.9) (xy 195.58 88.9)
 		)
 		(stroke
@@ -2892,7 +2885,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 83.82) (xy 226.06 83.82)
+			(xy 226.06 83.82) (xy 238.76 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2909,16 +2902,6 @@
 			(type default)
 		)
 		(uuid "11111a21-a7ef-4cd5-8efb-316b9cce034d")
-	)
-	(wire
-		(pts
-			(xy 251.46 105.41) (xy 259.08 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12e8e5e1-3a0e-4e51-a820-5d37db958ab5")
 	)
 	(wire
 		(pts
@@ -2959,6 +2942,16 @@
 			(type default)
 		)
 		(uuid "1fff23c6-957f-45d9-8e82-4002c5edd827")
+	)
+	(wire
+		(pts
+			(xy 27.94 30.48) (xy 36.83 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c4ebcd-3dc7-4209-ab07-8863c9c4cd9a")
 	)
 	(wire
 		(pts
@@ -3032,26 +3025,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 29.21) (xy 26.67 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d980bf6-6afa-4ad3-8724-45a190e85c63")
-	)
-	(wire
-		(pts
-			(xy 269.24 88.9) (xy 269.24 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f3f9e65-4950-4c7d-bf64-efbd54d171cd")
-	)
-	(wire
-		(pts
 			(xy 38.1 97.79) (xy 38.1 101.6)
 		)
 		(stroke
@@ -3082,16 +3055,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 83.82) (xy 236.22 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42a7a4a8-94b4-45af-96fb-c94d96db432f")
-	)
-	(wire
-		(pts
 			(xy 64.77 111.76) (xy 64.77 115.57)
 		)
 		(stroke
@@ -3112,7 +3075,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 26.67) (xy 30.48 29.21)
+			(xy 36.83 26.67) (xy 36.83 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3192,7 +3155,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 36.83) (xy 30.48 34.29)
+			(xy 36.83 36.83) (xy 36.83 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3292,16 +3255,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 105.41) (xy 259.08 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85394a25-3e45-4b84-be05-4691c71df48b")
-	)
-	(wire
-		(pts
 			(xy 83.82 38.1) (xy 83.82 40.64)
 		)
 		(stroke
@@ -3309,16 +3262,6 @@
 			(type default)
 		)
 		(uuid "85d51224-0b05-4115-bbd3-2947f6998d7a")
-	)
-	(wire
-		(pts
-			(xy 236.22 88.9) (xy 236.22 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88017854-1fe7-48ad-820b-4430361003e5")
 	)
 	(wire
 		(pts
@@ -3362,16 +3305,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 88.9) (xy 269.24 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9042de2d-c572-42f3-b6ff-89f62adf78dd")
-	)
-	(wire
-		(pts
 			(xy 205.74 93.98) (xy 205.74 88.9)
 		)
 		(stroke
@@ -3392,7 +3325,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 91.44) (xy 243.84 105.41)
+			(xy 243.84 91.44) (xy 243.84 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3409,16 +3342,6 @@
 			(type default)
 		)
 		(uuid "9ffb0d52-f3b1-4ff3-8dc0-a2bd1b6f7904")
-	)
-	(wire
-		(pts
-			(xy 269.24 93.98) (xy 269.24 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2691fd3-fff5-4050-88e2-c70770a10035")
 	)
 	(wire
 		(pts
@@ -3532,16 +3455,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 34.29) (xy 30.48 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cabc8d8e-0fc6-4b2d-b09a-f342adaaf280")
-	)
-	(wire
-		(pts
 			(xy 53.34 110.49) (xy 53.34 101.6)
 		)
 		(stroke
@@ -3559,16 +3472,6 @@
 			(type default)
 		)
 		(uuid "cfee4495-8d59-44de-b6f8-53f9eee5bcda")
-	)
-	(wire
-		(pts
-			(xy 243.84 105.41) (xy 251.46 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ebaa8b-ded4-4a7f-a494-81ab1a8ebfa9")
 	)
 	(wire
 		(pts
@@ -3592,16 +3495,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 96.52) (xy 251.46 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db92bb8e-7772-4eed-9952-cc04aa2453eb")
-	)
-	(wire
-		(pts
 			(xy 83.82 81.28) (xy 83.82 78.74)
 		)
 		(stroke
@@ -3619,36 +3512,6 @@
 			(type default)
 		)
 		(uuid "dc4f2056-0c69-49dd-8042-74b510d8d88f")
-	)
-	(wire
-		(pts
-			(xy 236.22 83.82) (xy 236.22 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd631f2b-5756-451e-b38b-62da8d2de2d0")
-	)
-	(wire
-		(pts
-			(xy 254 93.98) (xy 236.22 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3ff3902-3483-461e-9938-a03025c65408")
-	)
-	(wire
-		(pts
-			(xy 246.38 88.9) (xy 236.22 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea80ab8b-b542-4092-b05a-f7d2bbe4601f")
 	)
 	(wire
 		(pts
@@ -3672,7 +3535,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 83.82) (xy 248.92 83.82)
+			(xy 259.08 83.82) (xy 248.92 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3682,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 80.01) (xy 269.24 83.82)
+			(xy 259.08 78.74) (xy 259.08 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3732,7 +3595,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 105.41) (xy 243.84 105.41)
+			(xy 241.3 92.71) (xy 243.84 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3759,16 +3622,6 @@
 			(type default)
 		)
 		(uuid "fe1e7629-e25f-44a4-8f44-db948ecf86c6")
-	)
-	(wire
-		(pts
-			(xy 264.16 93.98) (xy 269.24 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff0fb9cf-139e-4e67-9f0a-4017dd4b1bd0")
 	)
 	(wire
 		(pts
@@ -4077,7 +3930,7 @@
 	)
 	(global_label "GATE"
 		(shape input)
-		(at 238.76 105.41 180)
+		(at 241.3 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4087,7 +3940,7 @@
 		)
 		(uuid "f4d2406a-1d83-4756-a0ab-4160150ebe95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.2996 105.41 0)
+			(at 233.8396 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,8 +4081,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 22.86 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "107b5de6-2a02-480f-968b-49113d5ab84c")
+		(property "Reference" "J7"
+			(at 22.86 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 23.622 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 22.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 22.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "688b399f-4cf5-43b8-8f19-ced7ed8141e4")
+		)
+		(pin "1"
+			(uuid "1d967edb-0d17-4873-987d-d083ea43132a")
+		)
+		(instances
+			(project ""
+				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/422da671-0b26-471a-8e39-6e8a6ba58ded"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
-		(at 30.48 26.67 0)
+		(at 36.83 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4238,7 +4159,7 @@
 		(fields_autoplaced yes)
 		(uuid "141ecfd6-fc84-4d83-a5ba-ca1b82654aa2")
 		(property "Reference" "#PWR023"
-			(at 30.48 30.48 0)
+			(at 36.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4168,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 30.48 21.59 0)
+			(at 36.83 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 26.67 0)
+			(at 36.83 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 26.67 0)
+			(at 36.83 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4194,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 26.67 0)
+			(at 36.83 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,79 +4273,6 @@
 			(project "opensolder"
 				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/422da671-0b26-471a-8e39-6e8a6ba58ded"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRF9540N")
-		(at 251.46 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14b8a055-3fbb-47bb-8a4b-5d8967260fd4")
-		(property "Reference" "Q4"
-			(at 248.92 85.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IRF9540N"
-			(at 255.27 85.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 253.365 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 255.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 251.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "002473c3-db6b-40c3-9d5a-6dc89ff9b56a")
-		)
-		(pin "2"
-			(uuid "0bcfd2d4-7e41-4ae6-aebc-cdd58e1d15b8")
-		)
-		(pin "3"
-			(uuid "7c3396d9-9c6d-4644-9acb-0af4f6cc4fcc")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/422da671-0b26-471a-8e39-6e8a6ba58ded"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4648,7 +4496,7 @@
 				)
 			)
 		)
-		(property "Value" "IRF9540N"
+		(property "Value" "IRF5305"
 			(at 248.92 80.518 90)
 			(effects
 				(font
@@ -5667,7 +5515,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 36.83 0)
+		(at 36.83 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5675,7 +5523,7 @@
 		(dnp no)
 		(uuid "55c10e65-ac5d-4b04-818d-4a93e3029826")
 		(property "Reference" "#PWR01"
-			(at 30.48 43.18 0)
+			(at 36.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +5532,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 41.148 0)
+			(at 36.83 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 36.83 0)
+			(at 36.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 36.83 0)
+			(at 36.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 36.83 0)
+			(at 36.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,6 +5934,71 @@
 			(project ""
 				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/422da671-0b26-471a-8e39-6e8a6ba58ded"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 259.08 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ee69369-25af-4e37-9378-15e8c8f9f0e7")
+		(property "Reference" "#PWR058"
+			(at 259.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 259.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75d8e36c-2d0f-4c72-96ac-1b7aa9630fc8")
+		)
+		(instances
+			(project "opensolder"
+				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/422da671-0b26-471a-8e39-6e8a6ba58ded"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7111,79 +7024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF9540N")
-		(at 259.08 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ccd1baf8-090e-429b-ace6-e6fb26b5d660")
-		(property "Reference" "Q5"
-			(at 256.54 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IRF9540N"
-			(at 262.89 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 260.985 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 262.89 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 259.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e344429e-90fe-4491-b9de-99a998b5b796")
-		)
-		(pin "2"
-			(uuid "2898aae2-5fa3-41d5-b586-3eab0c714ee7")
-		)
-		(pin "3"
-			(uuid "17e8e887-7b62-4e44-a507-1834c08016b5")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/422da671-0b26-471a-8e39-6e8a6ba58ded"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.34 154.94 0)
 		(unit 1)
@@ -7396,76 +7236,6 @@
 			(project "opensolder"
 				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/422da671-0b26-471a-8e39-6e8a6ba58ded"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 21.59 31.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0d7ffae-569a-4375-a3b8-70b5c6a73cb0")
-		(property "Reference" "J1"
-			(at 20.8915 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DC_Input"
-			(at 20.8915 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G_1x03_P5.00mm_Vertical"
-			(at 21.59 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 21.59 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd3fc8c0-9e71-4754-bb3d-e1f0943432ab")
-		)
-		(pin "2"
-			(uuid "dc94957e-9e2c-4f97-897d-ae7a081ba593")
-		)
-		(pin "3"
-			(uuid "a523e9ff-2dbb-405a-8a31-c56005b62703")
-		)
-		(instances
-			(project ""
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/422da671-0b26-471a-8e39-6e8a6ba58ded"
-					(reference "J1")
 					(unit 1)
 				)
 			)

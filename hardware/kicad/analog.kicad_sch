@@ -1663,84 +1663,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 133.35 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a5b9010-f786-47f9-8446-08ea6aab0c9d")
-		(property "Reference" "C1"
-			(at 136.525 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10n"
-			(at 136.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 132.3848 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C57112"
-			(at 133.35 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2acf9581-65fd-4504-9b7e-9bb765fc3c84")
-		)
-		(pin "2"
-			(uuid "3a957920-bffb-4092-b51b-6cd2f6c582b1")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/fb7f36e0-d019-486a-89d2-77cde1024cf0"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 142.24 97.79 0)
 		(unit 1)
@@ -1877,84 +1799,6 @@
 			(project "opensolder"
 				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/fb7f36e0-d019-486a-89d2-77cde1024cf0"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 186.69 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25f9f0b3-4089-4517-bfbe-66c1e02f26b4")
-		(property "Reference" "C7"
-			(at 189.865 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10n"
-			(at 189.865 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 185.7248 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C57112"
-			(at 186.69 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c705ee8-e151-4c5d-b273-935d61009e0a")
-		)
-		(pin "2"
-			(uuid "28ac0899-cd8e-4c55-b508-22fa6ddb5fe7")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/fb7f36e0-d019-486a-89d2-77cde1024cf0"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2687,6 +2531,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 133.35 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ad16f50-ff2f-400c-829d-097dfa90dead")
+		(property "Reference" "C1"
+			(at 137.16 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1n"
+			(at 137.16 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 132.3848 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1588"
+			(at 133.35 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b76fc98b-d68b-484e-81d4-ef363441700d")
+		)
+		(pin "2"
+			(uuid "d2619732-4bd3-4da0-b870-18681860d988")
+		)
+		(instances
+			(project "opensolder"
+				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/fb7f36e0-d019-486a-89d2-77cde1024cf0"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 146.05 40.64 270)
 		(unit 1)
@@ -2999,6 +2921,84 @@
 			(project "opensolder"
 				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/fb7f36e0-d019-486a-89d2-77cde1024cf0"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2240b34-eef0-4b38-8d59-202de6370e1e")
+		(property "Reference" "C6"
+			(at 190.5 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1n"
+			(at 190.5 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 185.7248 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1588"
+			(at 186.69 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7194cc9d-635e-495e-9adb-819806491a3f")
+		)
+		(pin "2"
+			(uuid "660e2335-967c-4c0f-a7d2-4123ca8c3080")
+		)
+		(instances
+			(project "opensolder"
+				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/fb7f36e0-d019-486a-89d2-77cde1024cf0"
+					(reference "C6")
 					(unit 1)
 				)
 			)

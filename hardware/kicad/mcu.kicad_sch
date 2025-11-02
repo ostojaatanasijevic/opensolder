@@ -3780,16 +3780,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 172.72) (xy 53.34 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1502d4e1-e8c9-4d9a-a4a2-590a9cdcd0ce")
-	)
-	(wire
-		(pts
 			(xy 43.18 35.56) (xy 43.18 36.83)
 		)
 		(stroke
@@ -3837,16 +3827,6 @@
 			(type default)
 		)
 		(uuid "1f4e68c8-cf80-4720-8402-1fc850f64dc1")
-	)
-	(wire
-		(pts
-			(xy 78.74 182.88) (xy 78.74 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "224e4cf4-468e-4dd1-9973-444096b1b357")
 	)
 	(wire
 		(pts
@@ -3907,16 +3887,6 @@
 			(type default)
 		)
 		(uuid "2ee5772e-6644-432f-b976-fba674625964")
-	)
-	(wire
-		(pts
-			(xy 91.44 182.88) (xy 91.44 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3295b9b8-9b86-4634-8f46-66b79bb23caa")
 	)
 	(wire
 		(pts
@@ -4130,16 +4100,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 182.88) (xy 53.34 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6450a64a-44e8-413a-a50c-47eaf2573b62")
-	)
-	(wire
-		(pts
 			(xy 46.99 128.27) (xy 44.45 128.27)
 		)
 		(stroke
@@ -4157,16 +4117,6 @@
 			(type default)
 		)
 		(uuid "670d2775-f26f-4a99-9722-65ef71c5d599")
-	)
-	(wire
-		(pts
-			(xy 66.04 182.88) (xy 66.04 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f926766-65ed-4767-9733-220b999c149e")
 	)
 	(wire
 		(pts
@@ -4297,16 +4247,6 @@
 			(type default)
 		)
 		(uuid "85bc0f09-55c7-4546-b436-4d0da256e766")
-	)
-	(wire
-		(pts
-			(xy 78.74 172.72) (xy 78.74 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87de1d43-3a92-4943-a2ee-e469e6cf7563")
 	)
 	(wire
 		(pts
@@ -4880,16 +4820,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 172.72) (xy 91.44 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e15456b5-b6e1-467b-976e-b24a462532dc")
-	)
-	(wire
-		(pts
 			(xy 34.29 34.29) (xy 29.21 34.29)
 		)
 		(stroke
@@ -4907,16 +4837,6 @@
 			(type default)
 		)
 		(uuid "e7d7e647-2922-4aaa-941f-3334284f4226")
-	)
-	(wire
-		(pts
-			(xy 66.04 172.72) (xy 66.04 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e894de4d-2b72-4179-938f-ca601d2eb443")
 	)
 	(wire
 		(pts
@@ -5888,162 +5808,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 91.44 179.07 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17f53fa3-3a06-4090-b289-53a7a6494cd9")
-		(property "Reference" "C15"
-			(at 88.265 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10n"
-			(at 88.265 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 92.4052 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C57112"
-			(at 91.44 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6a06c2c-dd67-4686-ad06-badff5595566")
-		)
-		(pin "2"
-			(uuid "1505cabb-462e-467c-9c6e-27b679b21732")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 40.64 179.07 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1914d49b-6353-497c-8bb3-4050580338fa")
-		(property "Reference" "C11"
-			(at 36.83 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 36.83 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 41.6052 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 40.64 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d41a9a16-0966-4958-8b84-1c93c300dab6")
-		)
-		(pin "2"
-			(uuid "ed92c94d-0c49-4a80-bae7-1be0ea984c6e")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 43.18 0)
 		(unit 1)
@@ -6186,71 +5950,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 66.04 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d6e8b6f-6f44-4539-842c-97d94295b1bc")
-		(property "Reference" "#PWR043"
-			(at 66.04 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04f48a45-0029-4b46-9a80-d616695f38e0")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 204.47 27.94 0)
 		(unit 1)
@@ -6323,71 +6022,6 @@
 			(project "opensolder"
 				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36136856-c3ab-4684-85ab-dfca9430e3c9")
-		(property "Reference" "#PWR026"
-			(at 91.44 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ffe7bc6-6b52-4f49-b5ee-14cb9723af09")
-		)
-		(instances
-			(project ""
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6524,18 +6158,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 66.04 172.72 0)
+		(lib_id "Device:C")
+		(at 40.64 179.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4db20489-ab4a-4fbb-b3b4-9797e3e1453b")
-		(property "Reference" "#PWR042"
-			(at 66.04 176.53 0)
+		(uuid "46a12728-70b3-48bd-a385-9537e97e285e")
+		(property "Reference" "C7"
+			(at 34.925 177.5291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 34.925 180.0691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 39.6748 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,25 +6192,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 66.04 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 172.72 0)
+		(property "Datasheet" "~"
+			(at 40.64 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,20 +6202,32 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 172.72 0)
+			(at 40.64 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 40.64 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "789d6d8c-3d79-45b7-982f-c6b9f2d21d3d")
+			(uuid "9dffe5c1-98a9-444b-841c-865496c47b28")
+		)
+		(pin "2"
+			(uuid "41daf395-4029-4c4f-b4c9-5c58e6a1594a")
 		)
 		(instances
 			(project "opensolder"
 				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "#PWR042")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6669,72 +6313,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 91.44 172.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "504a96a8-a60e-4637-8ea2-f7029f8805d0")
-		(property "Reference" "#PWR027"
-			(at 91.44 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 91.44 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3355471-4123-4c52-af4d-5cda427d36cd")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 43.18 35.56 0)
 		(mirror y)
 		(unit 1)
@@ -6793,84 +6371,6 @@
 			(project "opensolder"
 				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 66.04 179.07 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "510fcf1d-0fc3-4261-a32b-bf93b9cff0e1")
-		(property "Reference" "C13"
-			(at 62.23 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 62.23 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 67.0052 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 66.04 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "253b0bd3-52ce-4333-be08-e86bdf32ce0d")
-		)
-		(pin "2"
-			(uuid "b111ca90-59f1-4268-a744-168fec985277")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7380,72 +6880,6 @@
 			(project "opensolder"
 				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 53.34 172.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8527ea62-ee22-4f23-96a7-296863fefd85")
-		(property "Reference" "#PWR044"
-			(at 53.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 53.34 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32562a32-fc9c-4ad1-94b7-54b10bd7f114")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8077,71 +7511,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b49b739-54dd-4d43-82b0-40d28a3082eb")
-		(property "Reference" "#PWR045"
-			(at 53.34 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88c0bca8-e1f5-4e81-9e74-f1d79791eb63")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 34.29 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8717,71 +8086,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 78.74 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6af534b-c18d-4403-a21e-26488a184763")
-		(property "Reference" "#PWR028"
-			(at 78.74 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a7d4743-d3fc-4934-9b5c-2f79c7dd521e")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 217.17 43.18 0)
 		(unit 1)
@@ -9128,228 +8432,6 @@
 			(project ""
 				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 53.34 179.07 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6913373-84a8-452e-a684-48d6b72c3a9f")
-		(property "Reference" "C12"
-			(at 49.53 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 49.53 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 54.3052 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 53.34 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "019e12d9-87f7-42a3-81dd-2a7fa395949a")
-		)
-		(pin "2"
-			(uuid "ac402379-8bbe-45da-af5a-2cfd9ec695dc")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 78.74 172.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9201033-6b9f-4e8d-b615-725ff7fd3807")
-		(property "Reference" "#PWR025"
-			(at 78.74 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 78.74 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e85a886-6448-487b-924d-08cdb8ed96e1")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 78.74 179.07 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e93ef5cf-59bb-41c7-9d76-0b11ac6e5cce")
-		(property "Reference" "C14"
-			(at 75.565 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10n"
-			(at 75.565 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 79.7052 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C57112"
-			(at 78.74 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d83307f0-cd47-4713-b803-6e3e5a875b55")
-		)
-		(pin "2"
-			(uuid "f20b82bc-8779-4387-903c-c547d3fce014")
-		)
-		(instances
-			(project "opensolder"
-				(path "/80cf4e51-889a-47de-821d-fc008fee55dc/8c6f46b5-ceff-4f66-aa17-22f306fa5962"
-					(reference "C14")
 					(unit 1)
 				)
 			)
