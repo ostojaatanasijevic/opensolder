@@ -1,0 +1,431 @@
+(footprint "WC1602A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf")
+	(tags "LCD 16x2 Alphanumeric 16pin")
+	(property "Reference" "DS1"
+		(at -5.82 -3.81 0)
+		(layer "F.SilkS")
+		(uuid "232cec39-d2c1-4eff-b64d-964f316abbb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WC1602A"
+		(at -4.31 34.66 0)
+		(layer "F.Fab")
+		(uuid "b0f1d49b-883d-4e13-8805-f1fb266c6e61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "470b8484-59a1-40c5-8661-0d589b1734c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a8887d2-c184-49b9-a0b6-2472b583c104")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.14 -2.64)
+		(end -8.14 33.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef7be430-50e7-4bf4-82b2-7a6114883516")
+	)
+	(fp_line
+		(start -8.14 33.64)
+		(end 72.14 33.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df9ecdfa-2f1b-400e-8c0c-36537cdc9e7e")
+	)
+	(fp_line
+		(start -8.13 -2.64)
+		(end -7.34 -2.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17c8a5f9-ab35-4af8-b18d-05074199fd82")
+	)
+	(fp_line
+		(start -5 3)
+		(end 68 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39559768-a5c8-4b66-a757-aff8893eda28")
+	)
+	(fp_line
+		(start -5 28)
+		(end -5 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da67c7e2-7c0d-47fb-bb89-3784bcab0355")
+	)
+	(fp_line
+		(start -0.29972 22.49932)
+		(end -0.29972 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bd04714-a1a6-4185-a277-efe71a20ff43")
+	)
+	(fp_line
+		(start 0.2 8)
+		(end 63.7 8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4296dda2-ae6b-44fa-909b-8fbf5e13e4c7")
+	)
+	(fp_line
+		(start 63.70066 23)
+		(end 0.2 23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e098dc5f-6267-439f-9310-746afb5eeced")
+	)
+	(fp_line
+		(start 64.2 8.5)
+		(end 64.2 22.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81599d5e-070e-4d45-9c45-c734bf5c92fc")
+	)
+	(fp_line
+		(start 68 3)
+		(end 68 28)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cb0be01-8fe8-4fe5-92b8-2c99c9036978")
+	)
+	(fp_line
+		(start 68 28)
+		(end -5 28)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "455fb41e-f991-4607-a02d-a7e28882d9e6")
+	)
+	(fp_line
+		(start 72.14 -2.64)
+		(end -7.34 -2.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6efb79cf-4a0a-4acd-a190-dfa86ad14350")
+	)
+	(fp_line
+		(start 72.14 33.64)
+		(end 72.14 -2.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "596896c5-3470-4b18-b696-314df1f50e80")
+	)
+	(fp_arc
+		(start -0.29972 8.49884)
+		(mid -0.153162 8.145018)
+		(end 0.20066 7.99846)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac54b86a-6618-497d-8e13-083a94c596b5")
+	)
+	(fp_arc
+		(start 0.20066 22.9997)
+		(mid -0.153162 22.853142)
+		(end -0.29972 22.49932)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d47edd5-d100-4d16-a334-91779206b5ad")
+	)
+	(fp_arc
+		(start 63.7 8)
+		(mid 64.053553 8.146447)
+		(end 64.2 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7bc5d34-0f34-40cb-9a3f-8e10254260f6")
+	)
+	(fp_arc
+		(start 64.20104 22.49932)
+		(mid 64.054482 22.853142)
+		(end 63.70066 22.9997)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fca9f37-353f-46e6-89cd-8ac24ea6ef59")
+	)
+	(fp_line
+		(start -8.25 -2.75)
+		(end -8.25 33.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3abf566-27ca-4cf0-b1eb-ee578f82a82d")
+	)
+	(fp_line
+		(start -8.25 -2.75)
+		(end 72.25 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9844510-10e6-440b-b429-2e7476945a65")
+	)
+	(fp_line
+		(start -8.25 33.75)
+		(end 72.25 33.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "000f77dd-80e2-4588-acfe-b049c987f1fd")
+	)
+	(fp_line
+		(start 72.25 -2.75)
+		(end 72.25 33.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "faedd92a-70ab-4bad-ae6d-0f0b0b4bc66a")
+	)
+	(fp_line
+		(start -8 33.5)
+		(end -8 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd07d0a3-1ff0-4d33-a9e5-f99045d1a007")
+	)
+	(fp_line
+		(start -1 -2.5)
+		(end -8 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "441da425-d6ad-4220-ab46-484b5483929b")
+	)
+	(fp_line
+		(start -1 -2.5)
+		(end 72 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ea33e93-5b3c-4552-8d5f-29998a57b077")
+	)
+	(fp_line
+		(start 72 -2.5)
+		(end 72 33.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f0266a5-e858-45b7-b52d-2dc12b545535")
+	)
+	(fp_line
+		(start 72 33.5)
+		(end -8 33.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f070aa71-1bfc-491f-83bf-a44797fc828a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 30.37 14.74 0)
+		(layer "F.Fab")
+		(uuid "3d0dbc26-884d-4ddd-87ab-c4f1d9f59c0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -5.4991 0)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e12a6646-af4c-49e3-a7c4-e84c8be995d3")
+	)
+	(pad "" thru_hole circle
+		(at -5.4991 31.0007)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e76e7ec-4799-4a69-94af-9bf30c024d01")
+	)
+	(pad "" thru_hole circle
+		(at 69.49948 31.0007)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "69583f9f-5370-4d63-be55-2631544c4e85")
+	)
+	(pad "" thru_hole circle
+		(at 69.5 0)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2bd659da-d8f6-4218-824e-71fa33ed2a03")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/LCD 16X2.STEP"
+		(offset
+			(xyz 49.5 30.5 25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
+		(offset
+			(xyz -5.5 0 12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KIPRJMOD}/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
+		(offset
+			(xyz 69 -31 12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KIPRJMOD}/I2C LCD Adapter PCF8574.step"
+		(offset
+			(xyz 19 -7 16.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+	(model "${KIPRJMOD}/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
+		(offset
+			(xyz 69 0 12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KIPRJMOD}/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
+		(offset
+			(xyz -5 -31 12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+)

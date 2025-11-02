@@ -1,0 +1,21 @@
+Circuit: * C:\users\ostoja\Desktop\Elektronika\opensolder\hardware\gate_drivers.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Nov 02 18:45:14 2025
+Total elapsed time: 0.293 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 10704
+traniter = 10670
+tranpoints = 3150
+accept = 2595
+rejected = 555
+matrix size = 112
+fillins = 89
+solver = Normal
+Matrix Compiler1: 13.61 KB object code size  1.6/0.7/[0.7]
+Matrix Compiler2: 11.16 KB object code size  0.6/1.0/[0.6]
+
