@@ -9,10 +9,20 @@
 		(date "2023-01-23")
 		(rev "1.1")
 		(comment 1 "Licence: GPL-3.0")
-		(comment 2 "Designer: Håvard Jakobsen")
+		(comment 2 "Designer: Nenad Tepavac")
 		(comment 4 "OpenSolder - JBC T245 compatible soldering station")
 	)
 	(lib_symbols)
+	(text "Analogna PID kontrola"
+		(exclude_from_sim no)
+		(at 138.176 118.872 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "7df211cc-caa5-4c5b-900f-5971f4da665d")
+	)
 	(sheet
 		(at 63.5 63.5)
 		(size 38.1 38.1)

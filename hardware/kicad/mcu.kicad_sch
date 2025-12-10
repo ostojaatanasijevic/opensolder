@@ -3576,6 +3576,16 @@
 		)
 		(uuid dbed9b15-42da-4b22-8146-55bbacd18c56)
 	)
+	(text "Analogna PID kontrola"
+		(exclude_from_sim no)
+		(at 134.112 74.422 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "2977e72d-9fe9-4673-930e-5ef262065e9e")
+	)
 	(text "Screen I2C"
 		(exclude_from_sim no)
 		(at 12.446 16.256 0)
